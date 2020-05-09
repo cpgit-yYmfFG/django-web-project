@@ -125,3 +125,6 @@ STATIC_URL = '/static/'
 # Update django-crispy-forms to use Bootstrap 4
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+LOGIN_REDIRECT_URL = 'blog-home'
+LOGIN_URL = 'login'
